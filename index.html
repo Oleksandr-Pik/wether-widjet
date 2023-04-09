@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="stiles.css" />
+  </head>
+  <body>
+    <div class="weather-app">
+      <div class="weather-header">
+        <div id="city">Lviv</div>
+        <div id="time">09:51</div>
+      </div>
+      <div class="weather-main">
+        <div class="weather-temperature"><span id="temp">7</span>&deg;C</div>
+        <div id="condition" class="weather-kind">Cloudy now</div>
+      </div>
+      <div class="weather-footer">
+        <ul>
+          <li>
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/9766/9766473.png"
+              alt="windy icon"
+            />
+            <span><span id="wind">10</span> km/h</span>
+          </li>
+          <li>
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/9290/9290237.png"
+              alt="humidity icon"
+            />
+            <span><span id="humidity">85</span> %</span>
+          </li>
+          <li>
+            <img src="https://cdn-icons-png.flaticon.com/512/14/14078.png" alt="cloud icon" />
+            <span><span id="cloud">80</span> %</span>
+          </li>
+        </ul>
+        <img class="weather-img"
+          src="https://cdn-icons-png.flaticon.com/512/1850/1850730.png"
+          alt="cloudy icon"
+        />
+      </div>
+    </div>
+    <script src="weather.js"></script>
+  </body>
+</html>
